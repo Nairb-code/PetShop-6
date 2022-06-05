@@ -1,0 +1,124 @@
+
+.nav-chico {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    height: 25px;
+}
+
+.ofertas li {
+    display: flex;
+    list-style-type: none;
+}
+
+.idiomas {
+    display: flex;
+    justify-content: right;
+}
+
+.idiomas li {
+    display: flex;
+    padding: 10px 10px 10px;
+    margin: -20px 10px;
+}
+
+.nav-bar {
+    background-color: #F0A83E;
+    height: 60px;
+    color: #FFFFFF;
+}
+
+.categorias {
+    display: flex;
+    justify-content: right;
+    padding: 0px 15px 0px 10px;
+    margin: 4px 4px 4px;
+
+}
+
+.categorias li {
+    padding: 5px 30px 40px 5px;
+    margin: -10px;
+}
+
+.front {
+    font-size: 25px;
+}
+
+.banner {
+    background-image: url('../img/Comida\ 2.png');
+    height: 600px;
+}
+
+div h2 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 30px;
+    justify-content: center;
+}
+
+.patas {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.comederos {
+    display: inline-block;
+    left: 450px;
+    background-color: #F0A83E;
+    border-radius: none;
+    color: #FFFFFF;
+    justify-content: center;
+    border: none;
+}
+
+.contenedor-comederos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.informacion {
+    background-color: #3C2313;
+    color: #FFFFFF;
+    height: 200px;
+}
+
+footer {
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.precio {
+    color: #F0A83E;
+}
+
+.accesorios {
+    display: flex;
+    justify-content: center;
+}
+
+.accesorios li {
+    padding: 10px;
+    color: #666666;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+} 
+
+.productos-individuales {
+    padding: 20px;
+}
