@@ -1,9 +1,45 @@
-
+*{
+    box-sizing: border-box;
+}
+/*  funcionalidades MARGIN */
+.m-top-10{
+    margin-top: 10px;
+}
+.m-bottom-10{
+    margin-bottom: 10px;
+}
+.m-left-10{
+    margin-left: 10px;
+}
+.m-right-10{
+    margin-right: 10px;
+}
+.m-10{
+    margin: 10px;
+}
+/*  -----------------*/
+/*  funcionalidades PADDING */
+.p-top-10{
+    padding-top: 10px;
+}
+.p-bottom-10{
+    padding-bottom: 10px;
+}
+.p-left-10{
+    padding-left: 10px;
+}
+.p-right-10{
+    padding-right: 10px;
+}
+.p-10{
+    padding: 10px;
+}
+/* ---------------------------*/
 .nav-chico {
     background-color: black;
     color: white;
-    padding: 0px;
-    height: 25px;
+    padding: 10px;
+    height: 40px;
 }
 
 .ofertas li {
@@ -27,20 +63,18 @@
     height: 60px;
     color: #FFFFFF;
 }
-
-.categorias {
+.nav-bar ul{
     display: flex;
-    justify-content: right;
-    padding: 0px 15px 0px 10px;
-    margin: 4px 4px 4px;
-
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
 }
-
-.categorias li {
-    padding: 5px 30px 40px 5px;
-    margin: -10px;
+ul #cate{
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   width: 500px;
 }
-
 .front {
     font-size: 25px;
 }
@@ -92,6 +126,9 @@ h3 {
     background-color: #3C2313;
     color: #FFFFFF;
     height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer {
@@ -99,9 +136,18 @@ footer {
     color: #FFFFFF;
     text-align: center;
 }
-
+footer p{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.description{
+    text-align: center;
+}
 .precio {
     color: #F0A83E;
+    text-align: center;
+    font-weight: bold;
 }
 
 .accesorios {
