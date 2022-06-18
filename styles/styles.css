@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --orange: #F0A83E;
+    --brown: #3C2313;
+    --grey: #8A8787;
+    --black-ish: #222222;
+}
+html{
+    width: 100%;
+    height: auto;
+}
+
+.upperNav-container{
+    background: var(--black-ish);
+}
+.upperNav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: lighter;
+    width: 90%;
+    margin: auto;
+}
+.upperNav-bar ul{
+    display: flex;
+}
+
+.upperNav-bar ul li {
+    margin-left: 1rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--orange);
+    height: 3rem;
+}
+
+#navLogo{
+    height: 1.5rem;
+    margin-left: 2rem;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 5rem;
+}
+nav ul li{
+    margin-left: 1rem;
+}
+
+nav ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li img{
+    filter: invert(99%) sepia(0%) saturate(6527%) hue-rotate(201deg) brightness(300%) contrast(100%);
+    width: 1rem;
+    margin-right: .25rem;
+}
+.hero_container{
+    position: relative;
+}
+.hero{
+    width: 100%;
+    position: relative;
+}
+.hero img{
+    width: 100%;
+
+}
+.hero_text{
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    text-align: center;
+
+}
+.hero_text h2{
+    font-weight:400;
+    background: white;
+    padding: .5rem;
+    border-radius: 4px;
+    font-size: 2rem;
+}
+.hero_text p{
+    margin-top: .8rem;
+}
+.hero_text button{
+    background: var(--orange);
+    margin-top: .8rem;
+    border: none;
+    cursor: pointer;
+    width: 8.8rem;
+    height: 3rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.pDestacados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.pDestacados h1{
+    color: var(--brown);
+    font-size: 3rem;
+}
+.pDestacados ul{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.pDestacados ul li{
+    margin: 0 .5rem 0 .5rem;
+}
+.pDestacados_img-container{
+    display: flex;
+    margin-top: 4rem;
+}
+.pDestacados_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pDestacados_img img{
+    width: 16.5rem;
+    cursor: pointer;
+}
+.pDestacados_img h4{
+    margin-top: 1.5rem;
+}
+.pDestacados_img p {
+    margin-top: .5rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.form form input{
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2.5rem;
+    background: var(--brown);
+    border-radius: 8px;
+    border: none;
+    padding-left: .5rem;
+    color: white;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button{
+    height: 2rem;
+    width: 8rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.reset{
+    background: var(--grey);
+}
+.submit{
+    background: var(--orange);
+}
+.subscription{
+    background: var(--orange);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem;
+    height: 4rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+.subscription input{
+    width: 20rem;
+    height: 2.5rem;
+    background: white;
+    border-radius: 8px;
+    border: none;
+    padding-left: .5rem;
+    color: white;
+}
+.subscription button{
+    height: 2rem;
+    width: 8rem;
+    margin-left: .5rem;
+    border-radius: 12px;
+    border: none;
+    font-size: .9rem;
+    text-align: center;
+    color: white;
+    background: var(--brown);
+    cursor: pointer;
+}
+.subscription p{
+    color: white;
+    font-size: 1.25rem;
+}
+
+.icon_container{
+    background:var(--brown);
+    padding: 1.5rem 0 2rem 2rem;
+    position: relative;
+}
+.logoFooter{
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    width: 20rem;
+    text-align: center;
+}
+.icon{
+    display:flex;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+.icon img{
+    width: 4rem;
+}
+.icon span{
+    margin-left: 1rem;
+}
+.icon span h5 {
+    font-size: 1.25rem;
+    color: white;
+}
+.icon span p {
+    font-size: .8rem;
+    color: var(--grey);
+    margin-top: .3rem;
+}
+.copyright{
+    height: 1.25rem;
+    text-align: center;
+    background: var(--black-ish);
+    color: white;
+    font-size: .8rem;
+    font-weight: lighter;
+    padding-top: .3rem;
+}
+.subscription_text{
+    display: flex;
+    align-items: center;
+}
+.subscription_text p{
+    margin-left: 1rem;
+}

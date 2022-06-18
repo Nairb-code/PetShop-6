@@ -4,101 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Shop</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/reset.css">
-    <script src="https://kit.fontawesome.com/07727ab9e9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <nav class="nav-chico">
-            <ul class="ofertas">
-                <li>Grandes ofertas en comederos</li>
-                <ul class="idiomas">
-                    <li>Español</li>
-                    <li>$Arg</li>
-                </ul>
-            </ul>
-        </nav>
-        <nav class="nav-bar">
-            <ul>
-                <p class="front">FrontCat&Dog</p>
-                <div id="cate">
-                    <p>Categorias</p>
-                    <p>Pets</p>
-                    <p>Nosotros</p>
-                    <p>Contactanos</p>
-                </div>
-            </ul>
-            <div class="icono">
-                <i class="fa-solid fa-bars-filter"></i>
+        <div class="upperNav-container">
+            <div class="upperNav">
+                <p>Grandes ofertas en comederos</p>
+                <span class="upperNav-bar">
+                    <ul>
+                        <li>Español</li>
+                        <li>ARG$</li>
+                    </ul>
+                </span>
             </div>
-            
+        </div>
+        <nav>
+            <img id="navLogo" src="img/Logo.svg" alt="">
+            <ul>
+                <li><a href=""><img src="img/pawprint 1.svg" alt="">Categorias</a></li>
+                <li><a href=""><img src="img/pawprint 1.svg" alt="">Pets</a></li>
+                <li><a href=""><img src="img/pawprint 1.svg" alt="">Nosotros</a></li>
+                <li><a href=""><img src="img/pawprint 1.svg" alt="">Contactanos</a></li>
+            </ul>
         </nav>
-
     </header>
     <main>
-        <section class="banner">
-            <div class="cartel">
-                <h2>¡Es un placer tenerte aquí! </h2>
+        <section class="hero_container">
+            <div class="hero">
+                <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="">
             </div>
-            <h3>¡Comederos en descuento!</h3>
-            <div class="contenedor-comederos">
-                <span class="comederos">Comederos</span>
+            <div class="hero_text">
+                <h2>¡Es un placer tenerte aquí! </h2>
+                <p>¡Comederos en descuento!</p>
+                <button>Comederos</button>
             </div>
         </section>
-        <section>
-            <div class="patas">
-                <img src="img/Patitas.png" alt="Patitas">
-            </div>
+        <section class="pDestacados">
+            <img src="img/pawprint 1.svg" alt="">
             <h1>Productos Destacados</h1>
-            <ul  class="accesorios">
+            <ul>
                 <li>Comederos</li>
+                <li>.</li>
                 <li>Accesorios</li>
+                <li>.</li>
                 <li>Comida</li>
             </ul>
-
-            <div class="productos">
-                <div class="productos-individuales">
-                    <img src="img/Juegute Churrasco.png" alt="Juegute Churrasco">
-                    <div class="description m-top-10">
-                        Juegute Churrasco
-                    </div>
-                    <div class="precio m-top-10">
-                        $150
-                    </div>
+            <div class="pDestacados_img-container">
+                <div class="pDestacados_img">
+                    <img src="img/churrasquito.png" alt="">
+                    <h4 class="product_title">Juguete churrasquito</h4>
+                    <p class="precio">$ 150</p>
                 </div>
-                <div class="productos-individuales">
-                    <img src="img/Comedero Para Perro.png" alt="Comedero Para Perro">
-                    <div class="description m-top-10">
-                        Comedero para Perro
-                    </div>
-                    <div class="precio m-top-10">
-                        $250
-                    </div>
+                <div class="pDestacados_img">
+                    <img src="img/comedero.png" alt="">
+                    <h4 class="product_title">Comedero para perro</h4>
+                    <p class="precio">$ 250</p>
                 </div>
-                <div class="productos-individuales">
-                    <img src="img/Juegute Huesito.png" alt="Juegute Huesito">
-                    <div class="description m-top-10">
-                        Juegute Huesito
-                    </div>
-                    <div class="precio m-top-10">
-                        $650
-                    </div>
+                <div class="pDestacados_img">
+                    <img src="img/Huesito.png" alt="">
+                    <h4 class="product_title">Juguete huesito</h4>
+                    <p class="precio">$ 650</p>
                 </div>
             </div>
         </section>
-        <section class="informacion">
-            <p><span>Localidad</span> Callle - Provincia</p>
-            <p><span>Numero de Telefono</span> 15-1111-1111-111</p>
-            <p><span>Correo Electronico</span> Sarassa@gmail.com</p>
-
-            <p>FrontCat&Dog</p>
+        <section class="form">
+            <form action="">
+                <h3>Contáctanos</h3>
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="email" name="" id="" placeholder="Ingresá tu correo electrónico">
+                <input type="number" name="" id="" placeholder="Teléfono">
+                <div class="btn">
+                    <button class="reset" type="reset">Resetear</button>
+                    <button class="submit" type="submit">Enviar</button>
+                </div>
+            </form>
         </section>
+    </main>
 
-
-    <footer class="p-10">
-        <p>Todos los derechos reservados Front End I</p>
+    <footer>
+        <div class="subscription">
+            <div class="subscription_text">
+                <img src="img/enviar-correo 1.svg" alt="">
+                <p>Suscríbete para mas novedades</p>
+            </div>
+            <span>
+                <input type="email" name="" id="" placeholder="Ingresá tu correo electrónico">
+                <button type="submit">Suscribirme</button>
+            </span>
+        </div>
+        <div class="icon_container">
+            <div class="icon">
+                <img src="img/IconoLocation.svg" alt="">
+                <span>
+                    <h5>Localidad</h5>
+                    <p>Calle - Provincia</p>
+                </span>
+            </div>
+            <div class="icon">
+                <img src="img/IconoPhone.svg" alt="">
+                <span>
+                    <h5>Teléfono</h5>
+                    <p>Numero de telefono</p>
+                </span>
+            </div>
+            <div class="icon">
+                <img src="img/IconoMail.svg" alt="">
+                <span>
+                    <h5>Correo Electrónico</h5>
+                    <p>Dirección de correo</p>
+                </span>
+            </div>
+            <img class="logoFooter" src="img/LogoFooter.svg" alt="">
+        </div>
+        <div class="copyright">
+            <p>Todos los derechos reservados - DH 2022</p>
+        </div>
     </footer>
+    <script src="https://kit.fontawesome.com/c994bea628.js" crossorigin="anonymous"></script>
 </body>
 </html>
