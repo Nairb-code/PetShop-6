@@ -167,4 +167,38 @@ footer p{
 
 .productos-individuales {
     padding: 20px;
+    font-family: ;
+}
+/*
+.icono{
+    display: none;
+}
+*/  
+
+/* --------------------------------------------------- A partir de aqui implementarias las media querys ---------------------------------------------------- */
+
+/*  Smartphones*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nav-bar ul{
+        padding-top: 0px;
+    }
+    .nav-chico{
+        display: none;
+    }
+    .nav-bar #cate{
+        display: none;
+    }
+    .icono{
+        color: white;
+    }
+}
+
+/*  Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
 }
