@@ -19,7 +19,7 @@ html{
     width: 100%;
     height: auto;
 }
-
+/*  ------------- SECCION HEADER  --------------*/    
 .upperNav-container{
     background: var(--black-ish);
 }
@@ -71,6 +71,10 @@ nav ul li img{
     width: 1rem;
     margin-right: .25rem;
 }
+
+/*  ::::::::::::::::::::::::: END SECCION HEADER :::::::::::::::::::::*/
+
+/*  ------------------------------ SECCION MAIN -------------------------------*/
 .hero_container{
     position: relative;
 }
@@ -196,6 +200,8 @@ nav ul li img{
 .reset{
     background: var(--grey);
 }
+/*  ::::::::::::::::::::::::::::::: END SECCION MAIN ::::::::::::::::::::::::::::*/
+/*  ------------------------------- SECCION FOOTER ------------------------------*/
 .submit{
     background: var(--orange);
 }
@@ -281,4 +287,109 @@ nav ul li img{
 }
 .subscription_text p{
     margin-left: 1rem;
+}
+nav > .icono-bar {
+    display: none;
+}
+/*  ::::::::::::::::::::::::::::::: END SECCION FOOTER ::::::::::::::::::::::::::::::::*/
+
+/*  Aplicando Media Querys  */
+
+@media (max-width: 480px) {
+    .upperNav-container{
+        display: none;
+    }
+    header nav ul{
+        display: none;
+    }
+    nav > .icono-bar {
+        display: block;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    /*  background header   */
+    body{
+        width: 100vw;
+    }
+    .hero_container{
+        height: 300px;
+    }
+    .hero{
+        height: 100%;
+    }
+    .hero img{
+        height: 100%;
+        width: auto;
+        background-size:contain;
+    }
+    .hero_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero_text{
+        position: absolute;
+        right: 3rem;
+        top: 30%;
+        text-align: center;
+    
+    }
+    .hero_text h2{
+        font-weight:400;
+        background: white;
+        padding: .5rem;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+    .hero_text p{
+        margin-top: 1rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .hero_text button{
+        background: var(--orange);
+        margin-top: 3rem;
+        border: none;
+        cursor: pointer;
+        width: 8.8rem;
+        height: 2rem;
+        border-radius: 4px;
+        color: white;
+        font-size: .8rem;
+        text-transform: uppercase;
+    }
+    /*  SECCION MAIN    */
+    .pDestacados img{
+        height: 50px;
+        width: auto;
+    }
+    .pDestacados h1{
+        color: var(--brown);
+        font-size: 1rem;
+        margin-top: 1rem    ;
+    }
+    .pDestacados ul{
+        display: flex;
+        margin-top: 1rem;
+    }
+    
+    .pDestacados ul li{
+        margin: 0 .5rem 0 .5rem;
+    }
+    .pDestacados_img img{
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+    .pDestacados_img-container{
+        flex-direction: column;
+    }
+    /*  ::::::::::::::::::::::: END SECCION MAIN :::::::::::::::::::*/
+    /*  SECCION FOOTER  */
+    footer{
+        margin-top: 20px;
+    }
 }
